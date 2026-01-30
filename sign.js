@@ -4,5 +4,5 @@ menu.addEventListener("click",() =>{
 window.location.href ="menupage.html";
 });
 home.addEventListener("click",()=>{
-    window.location.href ="web.html";
+    window.location.href ="index.html";
 });

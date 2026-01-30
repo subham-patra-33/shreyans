@@ -1,6 +1,6 @@
 let home = document.querySelector(".member");
 home.addEventListener("click",()=>{
-    window.location.href="web.html";
+    window.location.href="index.html";
 });
 
 let signin = document.querySelector(".sign");
