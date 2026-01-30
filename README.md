@@ -1,3 +1,3 @@
 # shreyans
 ### Live website 
-https://calm-boba-55e8d2.netlify.app/
+https://shreyans0.netlify.app/
