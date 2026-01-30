@@ -1,0 +1,86 @@
+@font-face {
+    font-family: helv;
+    src: url(./HelveticaNowDisplay-Regular_5Mzhp8KlA8_CAVTbnsPOM.woff2);
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    border: box;
+    background-color: rgb(47, 46, 46);
+
+}
+.parent{
+    display: flex;
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.child{
+    display:flex;
+        flex-direction: column;
+         align-items: center;
+    justify-content: flex-start;
+    word-spacing: 10px;
+    column-gap: 5cap;
+    margin-bottom: 0;
+    gap:0px;
+
+}
+
+.child h4{
+    font-family: helv;
+    font-size: 30px;
+    
+}
+.child .sign{
+    margin-top: 15px;
+    padding:10px 25px;
+    border-radius: 6px;
+    border-style: none;
+    color:aliceblue;
+        font-family: helv;
+
+    font-size: 20px;
+    background-color: orangered;
+}
+
+@media (max-width:800px) {
+    
+.child{
+    display:flex;
+        flex-direction: column;
+         align-items: center;
+    justify-content: flex-start;
+    word-spacing: 10px;
+    column-gap: 5cap;
+    margin-bottom: 0;
+    gap:0px;
+
+}
+.child h4{
+    font-family: helv;
+    font-size: 20px;
+        margin-bottom: 0;
+        font-weight: 80px;
+
+}
+.child .sign{
+    margin-top: 7vh;
+    padding:10px 25px;
+    border-radius: 6px;
+    border-style: none;
+    color:aliceblue;
+        font-family: helv;
+    font-size: 15px;
+    background-color: orangered;
+}
+.member:hover {
+    color:rgb(252, 248, 246);
+
+}
+
+}
