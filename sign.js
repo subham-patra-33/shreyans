@@ -4,10 +4,10 @@ let arrow = document.querySelector(".arrow");
 let input = document.querySelector(".input");
 let password = document.querySelector(".password");
 let two = document.querySelector(".google");
+let cross =document.querySelector(".ri-close-large-line");
 menu.addEventListener("click",() =>{
 window.location.href ="menupage.html";
 });
-
 home.addEventListener("click",()=>{
     window.location.href ="index.html";
 });
@@ -31,4 +31,10 @@ input.addEventListener("input",()=>{
 two.addEventListener("click",()=>{
     input.value="";
     password.value="";
+});
+cross.addEventListener("click",()=>{
+    window.location.href="index.html";
+    cross.style.color="red";
+    cross.style.fontsize ="20px";
+
 });

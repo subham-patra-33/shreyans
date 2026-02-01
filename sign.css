@@ -269,7 +269,27 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
+
+
 }
+.cross{
+    position: absolute;
+    top:90px;
+    right:80px;
+    z-index: 1000;
+    cursor: pointer;
+    }
+    .cross i{
+        font-size: 20px;
+    }
+    .cross:hover{
+        font-size: 10px;
+        background-color: rgb(254, 30, 5);
+        border-radius: 50%;
+        padding: 5px 5px;
+
+    }
 section .h1{
     display: flex;
     align-items: center;
