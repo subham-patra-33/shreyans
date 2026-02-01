@@ -14,7 +14,7 @@ arrow.addEventListener("click",()=>
 {
     if(input.value.length !== 10){
         input.value ="";
-       input.placeholder ="Enter correct Ph number";
+       input.placeholder ="ENTER CORRECT PH NO.";
        input.style.border ="2px solid red";
        input.focus();
        return;
