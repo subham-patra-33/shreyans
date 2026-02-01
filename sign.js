@@ -34,7 +34,6 @@ two.addEventListener("click",()=>{
 });
 cross.addEventListener("click",()=>{
     window.location.href="index.html";
-    cross.style.color="red";
     cross.style.fontsize ="20px";
 
 });
