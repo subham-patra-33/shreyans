@@ -289,17 +289,60 @@ section .h1{
       flex-direction: column;
       justify-content: flex-start;
       margin-top: 50px;
-     
     }
 .two{
     margin-left: 20px;
+    font-family:gilb ;
 }
 .input{
+    width:90%;
+    align-items: center;
+    justify-content: center;
         padding:10px 15px;
             border-radius: 5px;
              border-style: none;
              background-color: rgb(86, 85, 85);
-          margin-top: 15px;
+    color: white;
+
+}
+.arrow{
+   
+   width:25px;
+}
+.place{
+    background-color: rgb(86, 85, 85);
+    margin-top: 15px;
+    display: flex;
+    width:100%;
+    max-width: 500px;
+                border-radius: 5px;
+
+    height: auto;
+    max-width: 400px;
+    
+
+}
+.password-box{
+    background-color: rgb(86, 85, 85);
+    margin-top: 15px;
+    display: flex;
+    width:100%;
+    max-width: 500px;
+                border-radius: 5px;
+
+    height: auto;
+    max-width: 400px;
+    
+
+}
+.password{
+    width:100%;
+    align-items: center;
+    justify-content: center;
+        padding:10px 15px;
+            border-radius: 5px;
+             border-style: none;
+             background-color: rgb(86, 85, 85);
     color: white;
 
 }
@@ -310,6 +353,9 @@ section .h4{
     font-weight: 200;
     font-family: gilb;
     gap:15px;
+}
+.google{
+    margin-top: 30px;
 }
 .ri-google-fill{
     background-color: brown;
